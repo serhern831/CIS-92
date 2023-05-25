@@ -7,14 +7,6 @@ metadata:
 spec:
   containers:
   - name: httpd
-    image: ghcr.io/serhern831/cis-92:milestone-4.2
+    image: ghcr.io/serhern831/cis-92:milestone-4.2 
     ports:
     - containerPort: 80
-     env:
-    - name: SECRET_KEY
-      valueFrom:
-        secretKeyRef:
-          name: my-secret
-          key: my-key
-    - name: PORT
-      value: "80"

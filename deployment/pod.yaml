@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: httpd
-    image: ghcr.io/serhern831/cis-92:milestone-4.2
+    image: ghcr.io/serhern831/cis-92:milestone-5.3
     ports:
     - containerPort: 80
     env:

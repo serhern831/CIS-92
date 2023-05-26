@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: key
+type: Opaque
+data:
+  SECRET_KEY: a3ViZXJuZXRlcw==
